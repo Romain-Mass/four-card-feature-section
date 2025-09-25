@@ -1,0 +1,24 @@
+.supervisor {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: start;
+}
+.team {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+}
+.karma {
+	display: flex;
+	flex-direction: column;
+	justify-content: bottom;
+	align-items: center;
+}
+.calculator {
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-items: end;
+}
