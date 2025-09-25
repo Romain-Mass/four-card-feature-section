@@ -1,24 +1,59 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.boite {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 .supervisor {
 	display: flex;
 	flex-direction: column;
-	justify-content: left;
-	align-items: start;
+	justify-content: start;
+	align-items: center;
+	border-top: solid 5px #44d3d2;
+	width: max-content;
 }
 .team {
 	display: flex;
 	flex-direction: column;
-	justify-content: top;
+	justify-content: center;
 	align-items: center;
+	width: max-content;
+	border-top: solid 5px #ea5454;
 }
 .karma {
 	display: flex;
 	flex-direction: column;
-	justify-content: bottom;
+	justify-content: cent;
 	align-items: center;
+	width: max-content;
+	border-top: solid 5px #fcae4a;
 }
 .calculator {
 	display: flex;
 	flex-direction: column;
-	justify-content: right;
+	justify-content: end;
+	align-items: center;
+	width: max-content;
+	border-top: solid 5px #549ef2;
+}
+.loupe {
+	display: flex;
 	align-items: end;
+	margin: 20px;
+	padding-left: ;
+}
+main {
+	padding: 125px;
+}
+
+* {
+	margin-bottom: 25px;
+}
+p {
+	font-family: Poppins;
 }
